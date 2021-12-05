@@ -237,7 +237,7 @@ for your constant support, providing ideas for new features, suggestions for imp
 
 #### Changes
 
-1. Create a pure function instead of React Components extending PureComponent, this way the `componentWillReceiveProps` will not be called when no props are changed
+1. Create a pure function instead of React Components extending PureComponent, this way the `UNSAFE_componentWillReceiveProps` will not be called when no props are changed
 1. Stop mutating the state of `EventHandler`, instead use a separate mutable state variable to hold a list of callbacks for drawing on canvas
 
 ## v0.2.6
